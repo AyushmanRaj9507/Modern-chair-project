@@ -457,3 +457,15 @@ h5 {
     font-size: 14px;
   }
 }
+.color-7 {
+  background-color: #000; /* black button */
+}
+
+.img-wrap.chair-7 {
+  background-image: url('./images/chair-7.png');
+  /* other styles matching existing chairs */
+}
+
+.back-color.chair-7 {
+  background-color: #333;
+}
