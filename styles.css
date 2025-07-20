@@ -470,3 +470,26 @@ h5 {
   background-color: #333;
 }
 
+label[class^="color-"] {
+  position: relative;
+}
+
+label[class^="color-"]::after {
+  content: attr(data-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+label[class^="color-"]:hover::after {
+  opacity: 1;
+}
