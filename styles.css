@@ -463,9 +463,10 @@ h5 {
 
 .img-wrap.chair-7 {
   background-image: url('./images/chair-7.png');
-  /* other styles matching existing chairs */
+  /* You can copy other chair styles too */
 }
 
 .back-color.chair-7 {
   background-color: #333;
 }
+
