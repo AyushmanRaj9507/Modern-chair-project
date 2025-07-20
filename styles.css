@@ -503,3 +503,8 @@ label[class^="color-"]:hover::after {
     text-align: center;
   }
 }
+.btn.buy-now {
+  background-color: #e91e63;
+  color: white;
+  margin-left: 10px;
+}
