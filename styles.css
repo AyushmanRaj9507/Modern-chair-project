@@ -508,3 +508,12 @@ label[class^="color-"]:hover::after {
   color: white;
   margin-left: 10px;
 }
+.img-wrap {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.color-btn:checked ~ .img-wrap {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
